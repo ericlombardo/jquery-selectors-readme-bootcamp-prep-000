@@ -19,5 +19,5 @@ function divSelector() {
 has the id of pic-list using descendandt selectors
 */
 function firstListItem() {
-  return $('#pic-list ul:first-child');
+  return $('#pic-list li:first-child');
 }
